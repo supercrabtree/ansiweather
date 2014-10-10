@@ -355,7 +355,7 @@ else
 	then
 		icon="$(get_icon $sky)"
 	fi
-	output="$background$text $greeting_text$city $delimiter$data $temperature $scale $icon$dashes$text $wind_text $delimiter$data $wind $speed_unit $direction $dashes$text $humidity_text $delimiter$data $humidity % $dashes$text $pressure_text $delimiter$data $pressure $pressure_unit"
+	output="$background$text $greeting_text$city --- $delimiter$data $temperature $scale $icon$dashes$text $wind_text $delimiter$data $wind $speed_unit $direction $dashes$text $humidity_text $delimiter$data $humidity % $dashes$text $pressure_text $delimiter$data $pressure $pressure_unit"
 
 	if [ $daylight = true ]
 	then
