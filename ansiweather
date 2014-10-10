@@ -229,7 +229,7 @@ fi
 function epoch_to_time {
 	if date -j -r $1 +"%r" > /dev/null 2>&1; then
 		# BSD
-		ret=$(date -j -r $1 +"$timeformat")
+		ret=$(date -j -r "$timeformat")
 	else
 		# GNU
 		ret=$(date -d @$1 +"$timeformat")
